@@ -18,6 +18,13 @@ body {
     width: var(--bannerwidth);
 }
 
+.odinlogo {
+    --dimensions: 100px;
+
+    width: var(--dimensions);
+    height: var(--dimensions);
+}
+
 .grey, .grey > a {
     color: rgb(180, 173, 173);
 }
@@ -31,4 +38,25 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+}
+
+.bannericon p {
+    font-family: hand-drawn;
+    font-size: 3em;
+    color: white;
+}
+
+.bannericon {
+    position: absolute;
+    background: rgb(0, 0, 0, .5);
+    width: var(--bannerwidth);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 2px 12px;
+    box-sizing: border-box;
+    top: 25vh;
+    letter-spacing: 3px;
+    height: 150px
 }
