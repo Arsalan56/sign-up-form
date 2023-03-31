@@ -1,0 +1,34 @@
+@font-face {
+    font-family: hand-drawn;
+    src: url(Delicious_Handrawn/DeliciousHandrawn-Regular.ttf);
+}
+
+body {
+    --bannerwidth: 38vw;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    font-size: 16px;
+}
+
+.bannerimg {
+    height: 100vh;
+    width: var(--bannerwidth);
+}
+
+.grey, .grey > a {
+    color: rgb(180, 173, 173);
+}
+
+.banner > p {
+    font-size: 12px; 
+    position: absolute;
+}
+
+.banner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
