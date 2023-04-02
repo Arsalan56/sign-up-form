@@ -5,12 +5,11 @@
 
 body {
     --bannerwidth: 38vw;
-
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    font-family: Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
     display: flex;
-    font-size: 16px;
 }
 
 .bannerimg {
@@ -54,9 +53,13 @@ body {
     justify-content: center;
     align-items: center;
     gap: 12px;
-    padding: 2px 12px;
+    padding: 0px 12px;
     box-sizing: border-box;
     top: 25vh;
     letter-spacing: 3px;
     height: 150px
+}
+
+.sign-in > a {
+    color: #596D48;
 }

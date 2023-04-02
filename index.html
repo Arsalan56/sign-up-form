@@ -8,13 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Background image -->
     <div class="banner">
         <img class='bannerimg' src="img.jpg" alt="tree leaves image">
         <p class="grey">Image by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/"> Unsplash</a></p> 
     </div>
+
+    <!-- Banner on top of background -->
     <div class="bannericon">
         <img src="odin-lined.png" alt="s" class="odinlogo">
         <p>ODIN</p>
+    </div>
+
+    <div class="main">
+        <h2>This is not a real online service! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id semper leo, quis congue dui.</h2>
+        <h2>You know you want to.</h2>
+        <form action="index.html method="post">
+            <caption>Let's do This!</caption>
+            <label for="f_name">FIRST NAME<input type="text" required name="first_name" id="f_name" autocomplete="given-name" title="Please enter your first name"></label>
+            <label for="l_name">LAST NAME<input type="text" required name="last_name" id="l_name" autocomplete="family-name" title="Please enter your last name"></label>
+            <label for="mail">EMAIL<input type="email" required name="email" autocomplete="email" title="Please enter a valid email address in the form of email@email.com"></label>
+            <label for="pho_number">PHONE NUMBER<input type="tel" autocomplete="tel-national" title="Please enter a valid phone number without the country code. Ex: 012-345-6789"></label>
+            <label for="pass">PASSWORD<input type="password" minlength="8" maxlength="18" name="pass-1" autocomplete="new-password" id='pass' title="Please create a password that is 8-18 letters long."></label>
+            <label for="pass_confirm">CONFIRM PASSWORD<input type="password" name="pass-2" autocomplete="confirm-" id="pass_confirm" title="Please enter the same password in both fields."></label>
+            <button type="submit">Create Account</button>
+        </form>
+        <p class="sign-in">Already have an account? <a href="#" class="green-word">Log in</a></p>
     </div>
 </body>
 </html>
