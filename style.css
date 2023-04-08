@@ -74,6 +74,7 @@ label > input {
     border: 1px solid #E5E7EB;
     border-radius: 4px;
     height: 20px;
+
 }
 
 label {
@@ -133,6 +134,11 @@ button:active {
     transform: scale(.95)
 }
 
-input.clicked {
-    border: 1px solid red;
+input.clicked:invalid {
+    transition: border 1s ease;
+    border: 2px solid red;
+}
+
+div {
+    /* border: 1px solid red */
 }
