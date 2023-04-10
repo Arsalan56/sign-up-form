@@ -3,30 +3,21 @@
     src: url(Delicious_Handrawn/DeliciousHandrawn-Regular.ttf);
 }
 
+.grey, .grey > a {
+    color: rgb(180, 173, 173);
+}
+
 body {
     --bannerwidth: 38vw;
     --mainpadding: 4vw;
 
-    font-family: Helvetidiv, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
     display: flex;
-}
-
-.bannerimg {
+    width: 100vw;
     height: 100vh;
-    width: var(--bannerwidth);
-}
-
-.odinlogo {
-    --dimensions: 100px;
-
-    width: var(--dimensions);
-    height: var(--dimensions);
-}
-
-.grey, .grey > a {
-    color: rgb(180, 173, 173);
+    flex-wrap: wrap;
 }
 
 .banner > p {
@@ -38,6 +29,10 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: center;
+    flex: 2;
+    min-width: 35vw;
+    background: url(ernest-malimon-hzfDBCp5d-w-unsplash.jpg) no-repeat center;
+    background-size: 100% 100%;
 }
 
 .bannericon p {
@@ -104,8 +99,10 @@ form > div > div {
 .main {
     display: flex;
     flex-direction: column;
+    flex-grow: 3;
+    width: 500px;
 }
-
+/* 
 .formstyle {
     background: white;
     box-shadow: 0px 2px 6px grey;
@@ -151,4 +148,8 @@ input[type='password'].no {
 
 input[type='password'].yes {
     border: 2px solid #228B22;
+} */
+
+div {
+    border: 2px solid red;
 }
