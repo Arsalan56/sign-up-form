@@ -1,12 +1,14 @@
 const inputs = document.querySelectorAll("input");
 inputs.forEach((input) => {
-  input.addEventListener(
-    "input",
-    () => {
+  let selected = document.getElementsByClassName("entered");
+  input.addEventListener("input", () => {
+    console.log(input.value);
+    if (input.value.length === 0) {
+      input.classList.remove("entered");
+    } else {
       input.classList.add("entered");
-    },
-    { once: true }
-  );
+    }
+  });
 });
 
 const pass1 = document.querySelector("#pass");
