@@ -104,6 +104,7 @@ form > div > div {
 form > div > div > div {
     flex-grow: 1;
     max-width: 200px;
+    height: 7vh;
 }
 
 .main {
@@ -167,6 +168,8 @@ h2 {
 form > div > div > div > p {
     color: red;
     font-size: .75rem;
-    margin-top: -1vh;
+    margin: -1vh 0px;
     padding: 0px;
+    visibility:hidden;
 }
+

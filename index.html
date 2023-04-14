@@ -30,25 +30,25 @@
                 <caption>Let's do This!</caption>
                 <div>
                     <div><label for="f_name">FIRST NAME<input type="text" name="first_name" id="f_name" autocomplete="given-name" title="Please enter your first name"></label></div>
-                    <div><label for="l_name">LAST NAME<input type="text" name="last_name" id="l_name" autocomplete="family-name" title="Please enter your last name"></label>    </div>
+                    <div><label for="l_name">LAST NAME<input type="text" name="last_name" id="l_name" autocomplete="family-name" title="Please enter your last name"></label></div>
                 </div>
                 <div>
                     <div>
-                        <label for="pho_number">PHONE NUMBER<input type="tel" autocomplete="off" id='pho_number' title="Please enter a valid phone number without the country code. Ex: 012-345-6789" minlength="8" maxlength="10"></label>
+                        <label for="pho_number">PHONE NUMBER<input type="tel" autocomplete="off" class="red" id='pho_number' title="Please enter a valid phone number without the country code. Ex: 012-345-6789" minlength="8" maxlength="10"></label>
                         <p class="pho-num-confirm">Invalid phone number</p>
                     </div>
                     <div>
-                        <label for="mail">EMAIL<input type="email" required name="email" id="mail" placeholder='email@email.com' autocomplete="email" title="Please enter a valid email address in the form of email@email.com"></label>
+                        <label for="mail">EMAIL<input type="email" required name="email" class="red" id="mail" placeholder='email@email.com' autocomplete="email" title="Please enter a valid email address in the form of email@email.com"></label>
                         <p class="email-confirm">*Invalid email address</p>
                     </div>
                 </div>
                 <div>
                     <div>
-                        <label for="pass">PASSWORD<input type="password" minlength="8" placeholder="Password 8-18 Characters Long" required maxlength="18" placeholder='Password 8-18 Characters Long' visible name="pass" autocomplete="new-password" id='pass' title="Please create a password that is 8-18 characters long."></label>
+                        <label for="pass">PASSWORD<input type="password" minlength="8" placeholder="Password 8-18 Characters Long" required maxlength="18" placeholder='Password 8-18 Characters Long' visible name="pass" autocomplete="new-password" id='pass' title="Please create a password that is 8-18 characters long." class="red"></label>
                         <p class="pass-1-confirm">*Invalid password</p>
                     </div>
                     <div>
-                        <label for="pass_confirm">CONFIRM PASSWORD<input type="password" minlength="8" maxlength="18" placeholder='Password 8-18 Characters Long' required autocomplete="new-password" id="pass_confirm" title="Please enter the same password in both fields."></label>
+                        <label for="pass_confirm">CONFIRM PASSWORD<input type="password" minlength="8" maxlength="18" placeholder='Password 8-18 Characters Long' required autocomplete="new-password" id="pass_confirm" class="verify" title="Please enter the same password in both fields."></label>
                         <p class="pass-2-confirm">*Passwords do not match</p>
                     </div>
                 </div>    
