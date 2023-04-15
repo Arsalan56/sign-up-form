@@ -143,12 +143,10 @@ button:active {
 }
 
 input.entered:invalid {
-    transition: border 1s ease;
     border: 2px solid red;
 }
 
 input.entered:valid {
-    transition: border 0.5s ease;
     border: 2px solid #228B22;
 }
 
@@ -170,6 +168,6 @@ form > div > div > div > p {
     font-size: .75rem;
     margin: -1vh 0px;
     padding: 0px;
-    visibility:hidden;
+    visibility: hidden;
 }
 
