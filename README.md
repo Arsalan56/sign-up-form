@@ -1,1 +1,3 @@
 # sign-up-form
+
+This project is a simple user log-in page for a non-existent service. This project displays a handful of skills, the main one being forms. The form is styled accordingly in order to give a good experience for potential users. There are warning messages and border colors that will appear on inputs that are provided invalid values. The program takes into consideration the user's screen-size and shifts itself appropriately. This project was made using JavaScript, HTML, and CSS. The Odin Logo is shown as company logo since the program is made as a part of [TheOdinProject](https://www.theodinproject.com/)'s curriculum.
